@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Autofill Job Application",
+  "description": "A Chrome Extension which automatically fill your details and submits your job application",
+  "version": "1.0.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": ["https://*/*", "http://*/*"],
+  "permissions": ["tabs", "activeTab", "scripting"]
+}
